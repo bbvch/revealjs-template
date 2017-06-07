@@ -19,6 +19,7 @@ In order to use the template, you have to
 - clone and install reveal.js following https://github.com/hakimel/reveal.js#installation
 - clone the revealjs-template into a separate directory
 - copy the files from the revealjs-template directory into the reveal.js directory with
+- run sass task
 ```
 git clone https://github.com/hakimel/reveal.js.git
 cd reveal.js
@@ -27,5 +28,6 @@ cd ..
 git clone https://github.com/bbvch/revealjs-template.git
 cp --recursive revealjs-template/* reveal.js/
 cd reveal.js
+grunt css-themes
 npm start
 ```
