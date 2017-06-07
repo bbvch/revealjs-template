@@ -1,0 +1,63 @@
+/**
+ * A simple theme for reveal.js presentations, similar
+ * to the default theme. The accent color is darkblue.
+ *
+ * This theme is Copyright (C) 2012 Owen Versteeg, https://github.com/StereotypicalApps. It is MIT licensed.
+ * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+// Include theme-specific fonts
+@import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+
+
+// Override theme settings (see ../template/settings.scss)
+$mainFont: 'Arial', sans-serif;
+$mainColor: rgba(112,113,115,0.99);
+$headingFont: 'Arial';
+$headingColor: rgba(204,7,30,1);
+$headingTextShadow: none;
+$headingTextTransform: none;
+$backgroundColor: #fff;
+$linkColor: #00008B;
+$linkColorHover: lighten( $linkColor, 20% );
+$selectionBackgroundColor: rgba(0, 0, 0, 0.99);
+
+section.has-dark-background {
+	&, h1, h2, h3, h4, h5, h6 {
+		color: #fff;
+	}
+}
+div,section {
+	.bbv-logo {
+		background-image: url("assets/Logo_bbv_neu.PNG");
+		background-repeat: no-repeat;
+		display: block;
+		background-size: 10%;
+	}
+}
+div.bbv-banner {
+	height: 5em;
+	background-color: $headingColor;
+	color: white;
+	font-weight: bold !important;
+	position: relative;
+}
+div.bbv-banner p {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	left: 50%;
+	margin-right: -50%
+}
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
