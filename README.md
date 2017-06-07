@@ -20,5 +20,10 @@ In order to use the template, you have to
 - clone the revealjs-template into a separate directory
 - copy the files from the revealjs-template directory into the reveal.js directory with
 ```
+git clone https://github.com/hakimel/reveal.js.git
+cd reveal.js
+npm install
+cd ..
+git cloe https://github.com/bbvch/revealjs-template.git
 cp --parents --recursive revealjs-template/* reveal.js/
 ```
