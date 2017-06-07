@@ -24,6 +24,6 @@ git clone https://github.com/hakimel/reveal.js.git
 cd reveal.js
 npm install
 cd ..
-git cloe https://github.com/bbvch/revealjs-template.git
-cp --parents --recursive revealjs-template/* reveal.js/
+git clone https://github.com/bbvch/revealjs-template.git
+cp --recursive revealjs-template/* reveal.js/
 ```
