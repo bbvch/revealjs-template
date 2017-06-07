@@ -27,5 +27,5 @@ cd ..
 git clone https://github.com/bbvch/revealjs-template.git
 cp --recursive revealjs-template/* reveal.js/
 cd reveal.js
-npm run
+npm start
 ```
