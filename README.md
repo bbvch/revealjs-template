@@ -28,6 +28,7 @@ cd ..
 git clone https://github.com/bbvch/revealjs-template.git
 cp --recursive revealjs-template/* reveal.js/
 cd reveal.js
+#in case the scss file was modified
 grunt css-themes
 npm start
 ```
