@@ -31,6 +31,21 @@ div.bbv-banner p {
   left: 50%;
   margin-right: -50%; }
 
+div.bbv-schlagwort {
+  height: 5em;
+  background-color: #f2f2f2;
+  color: #cc071e;
+  font-weight: bold !important;
+  position: relative; }
+
+div.bbv-schlagwort p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  margin-right: -50%; }
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/

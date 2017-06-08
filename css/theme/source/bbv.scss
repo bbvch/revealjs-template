@@ -28,6 +28,8 @@ $backgroundColor: #fff;
 $linkColor: #00008B;
 $linkColorHover: lighten( $linkColor, 20% );
 $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
+$bbvRed: rgba(204,7,30,1);
+$bbvLight: rgba(242,242,242,255);
 
 section.has-dark-background {
 	&, h1, h2, h3, h4, h5, h6 {
@@ -44,12 +46,28 @@ div,section {
 }
 div.bbv-banner {
 	height: 5em;
-	background-color: $headingColor;
+	background-color: $bbvRed;
 	color: white;
 	font-weight: bold !important;
 	position: relative;
 }
 div.bbv-banner p {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	left: 50%;
+	margin-right: -50%
+}
+
+div.bbv-schlagwort {
+	height: 5em;
+	background-color: $bbvLight;
+	color: $bbvRed;
+	font-weight: bold !important;
+	position: relative;
+}
+div.bbv-schlagwort p {
 	margin: 0;
 	position: absolute;
 	top: 50%;
