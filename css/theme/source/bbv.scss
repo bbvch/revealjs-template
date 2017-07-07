@@ -30,6 +30,7 @@ $linkColorHover: lighten( $linkColor, 20% );
 $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
 $bbvRed: rgba(204,7,30,1);
 $bbvLight: rgba(242,242,242,255);
+$bbvGrey: rgba(112,113,115,255);
 
 section.has-dark-background {
 	&, h1, h2, h3, h4, h5, h6 {
@@ -75,7 +76,20 @@ div.bbv-schlagwort p {
 	left: 50%;
 	margin-right: -50%
 }
+h3.bbv-schlagwort-sub {
+	color: $bbvGrey !important; 
+	font-size: 0.7em !important;
+	line-height: 2 !important;
+}
 
+.bbv-bildertabelle img,p {
+	max-height: 80% !important;
+	vertical-align: middle !important;
+}
+
+.bbv-bildertabelle td {
+	border-bottom: 0px !important;
+}
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------

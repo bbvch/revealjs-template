@@ -46,6 +46,18 @@ div.bbv-schlagwort p {
   left: 50%;
   margin-right: -50%; }
 
+h3.bbv-schlagwort-sub {
+  color: #707173 !important;
+  font-size: 0.7em !important;
+  line-height: 2 !important; }
+
+.bbv-bildertabelle img, p {
+  max-height: 80% !important;
+  vertical-align: middle !important; }
+
+.bbv-bildertabelle td {
+  border-bottom: 0px !important; }
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
